@@ -1,1 +1,2 @@
-LCIT
+LCIT - Lambton College In Toronto
+Hello world
