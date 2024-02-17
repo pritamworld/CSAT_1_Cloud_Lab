@@ -6,13 +6,13 @@ on:
     branches: [docker]
 
 jobs:
-  # define job to build and publish docker image
+  # define the job to build and publish the docker image
   build-and-push-docker-image:
     name: Build Docker image and push to repositories
     # run only when code is compiling and tests are passing
     runs-on: ubuntu-latest
 
-    # steps to perform in job
+    # steps to perform in the job
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
